@@ -1,6 +1,6 @@
 package chapter_six;
 
-import org.springframework.beans.BeanUtils;
+
 
 /**
  * @Description: 在编程语言中大家通常对一个对象进行初始化的操作，但是大部分人可能会忘了调用这些
@@ -184,6 +184,7 @@ enum  Enum{
      * */
     public static void main(String[] args) {
         //这说明编译器会实现其string方法
-        System.out.println(Enum.MAA);
+        int a = Enum.MAA.ordinal();
+        System.out.println(a);
     }
 }
