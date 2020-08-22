@@ -25,7 +25,7 @@ public class FirstInnerClass implements Serializable {
     private void test() {
     }
 
-    private class InnerClass implements Serializable {
+    private  class InnerClass implements Serializable {
         private void getParam() {
             System.out.println(test);
         }
